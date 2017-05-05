@@ -3,7 +3,7 @@
 - class: design
   content: Design
 - class: animation
-  content: animation
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut expedita sapiente voluptates, blanditiis optio quod a atque numquam dolorem necessitatibus voluptatum mollitia suscipit aliquam nisi commodi eaque, tempore, aspernatur odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut expedita sapiente voluptates, blanditiis optio quod a atque numquam dolorem necessitatibus voluptatum mollitia suscipit aliquam nisi commodi eaque, tempore, aspernatur odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut expedita sapiente voluptates, blanditiis optio quod a atque numquam dolorem necessitatibus voluptatum mollitia suscipit aliquam nisi commodi eaque, tempore, aspernatur odit?
 - class: three-d    
   content: 3D
 - class: nav
@@ -11,7 +11,4 @@
 - class: footer
   content: this is the footer
 - class: speaking
-  content: >
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sit atque facere nesciunt expedita veniam dolor voluptas, sint magni aspernatur, tenetur quibusdam debitis eveniet ducimus nisi nihil neque commodi non.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sit atque facere nesciunt expedita veniam dolor voluptas, sint magni aspernatur, tenetur quibusdam debitis eveniet ducimus nisi nihil neque commodi non.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sit atque facere nesciunt expedita veniam dolor voluptas, sint magni aspernatur, tenetur quibusdam asdf
+  content: speaking
