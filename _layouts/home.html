@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="grid">
+    {% for box in site.data.sections %}
+
+      <div class="{{box.class}}">
+        {{box.content}} 
+      </div>
+    {% endfor %}
+</div>
+

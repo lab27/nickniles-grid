@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+// Import Bulma
+@import
+  "randomcolor";
+  // "../node_modules/bulma/bulma.sass";
+
+$color1: #76fbcc;
+$color2: #8aeca0;
+$color3: #a0da76;
+$color4: #b5c651;
+$color5: #c9af34;
+$color6: #da9627;
+$color7: #e8792d;
+$color8: #f0583f;
+
+body {
+  padding: 24px;
+}
+.grid {
+
+  display: grid;
+  grid-template-columns: minmax(500px, 1fr) 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr  200px;
+  grid-template-areas: "header header animation three"
+                      "nav speaking animation three"
+                      "nav speaking design design"
+                      "nav footer footer footer";
+  grid-gap: 12px 12px;
+  min-height: 100vh;
+
+  * {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    // max-height: 25vh;
+  }
+}
+
+.header {
+  grid-area: header;
+  // background: $color1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: getRandomColor("hsl");
+
+}
+
+.nav {
+  grid-area: nav;
+  // background:$color3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: getRandomColor("hsl");
+
+}
+
+.footer {
+  grid-area: footer;
+  // background:$color7;
+      background: getRandomColor("hsl");
+
+}
+
+.design {
+  grid-area: design;
+  // background: $color8;
+      background: getRandomColor("hsl");
+
+}
+
+.three-d {
+  grid-area: three;
+  // background: $color4;
+      background: getRandomColor("hsl");
+
+}
+
+.animation {
+  grid-area: animation;
+  // background: $color2;
+      background: getRandomColor("hsl");
+
+}
+
+.speaking {
+  grid-area: speaking;
+  // background: dodgerblue;
+      background: getRandomColor("hsl");
+
+}
+
+.random-color {
+  border-width:1px;
+}
